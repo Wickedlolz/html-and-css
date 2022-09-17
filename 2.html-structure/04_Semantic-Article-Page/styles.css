@@ -13,9 +13,7 @@ article {
 .comments-title {
     font-size: 1.5rem;
     margin: 15px 10px;
-    background-color: #f2f4c0;
     padding: 5px 15px;
-    border: 1px solid #b2ad7d;
 }
 
 #comments article {
