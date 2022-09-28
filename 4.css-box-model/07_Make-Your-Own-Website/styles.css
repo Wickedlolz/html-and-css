@@ -1,1 +1,28 @@
-/* TODO: style the html */
+div.left,
+div.center,
+div.right {
+    width: 280px;
+    display: inline-block;
+    padding: 16px 16px 16px 32px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    margin-top: 20px;
+    background-color: #0a2c48;
+    color: #fff;
+    border-radius: 4px;
+}
+
+div.left:hover,
+div.center:hover,
+div.right:hover {
+    background-color: #2a4c68;
+}
+
+div.left p,
+div.center p,
+div.right p {
+    color: #c9d6ff;
+    font-size: 18px;
+}

@@ -1,0 +1,42 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 40px;
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+header h1,
+header nav {
+    display: inline-block;
+}
+
+header h1 {
+    margin-right: 50px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #21a14f;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+main h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+main p {
+    font-size: 15px;
+}
