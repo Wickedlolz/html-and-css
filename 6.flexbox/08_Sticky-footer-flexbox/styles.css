@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header {
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+main {
+    width: 100%;
+}
+
+footer {
+    position: sticky;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+
+    padding-left: 15px;
+}

@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.card {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: -2px 1px 28px 2px rgba(0, 0, 0, 0.66);
+    -webkit-box-shadow: -2px 1px 28px 2px rgba(0, 0, 0, 0.66);
+    -moz-box-shadow: -2px 1px 28px 2px rgba(0, 0, 0, 0.66);
+}
+
+div.card h1 {
+    margin: 0px;
+}
