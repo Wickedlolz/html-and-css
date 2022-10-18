@@ -1,0 +1,111 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+}
+
+header div h1 {
+    font-size: 2.2rem;
+    color: #9d4b9b;
+}
+
+header div p {
+    font-size: 9px;
+    text-transform: uppercase;
+    color: #525252;
+}
+
+section {
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+}
+
+.divider {
+    width: 80px;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+section.hero div.desc {
+    width: 65%;
+    display: inline-block;
+    position: relative;
+}
+
+section.hero div.desc h2.desc__title {
+    font-size: 28px;
+}
+
+section.hero div.desc p.desc__content {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+section.hero i.hero__img {
+    font-size: 120px;
+    position: absolute;
+    top: 17%;
+    right: 0px;
+}
+
+section.team h2.team__title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+section.team h2.team__title::after {
+    content: '';
+    width: 2px;
+    height: 1px;
+    background-color: #000;
+    color: #000;
+}
+
+section.team ul.members {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+section.team ul.members li.members__item article.cart img.cart__img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.team .members .members__item .cart .content .content__name {
+    text-align: center;
+}
+
+.team .members .members__item .cart .content .content__role {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.team .members .members__item .cart .content .content__desc {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.newsletter {
+    background-color: #68367b;
+}
+
+.newsletter .newsletter__title {
+    font-size: 23px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 15px;
+}

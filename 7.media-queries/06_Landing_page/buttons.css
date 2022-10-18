@@ -1,0 +1,6 @@
+.btn--primary {
+    font-size: 14px;
+    border: 2px solid #000;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
