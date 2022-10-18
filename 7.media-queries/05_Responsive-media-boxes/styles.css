@@ -1,0 +1,73 @@
+html {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 20px 40px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+section {
+    width: 400px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+section div.content {
+    padding: 0px 20px 20px 20px;
+}
+
+section div.content button.content__btn {
+    background-color: rgb(0, 153, 0);
+    color: #fff;
+    padding: 7px 12px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 270px;
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        padding: 2px 5px;
+    }
+
+    section div.content {
+        width: 350px;
+        text-align: center;
+        padding: unset;
+    }
+
+    section div.content h1.content__title {
+        font-size: 2rem;
+    }
+
+    section div.content p.content__desc {
+        font-size: 2rem;
+    }
+
+    section div.content button.content__btn {
+        margin-left: 200px;
+        padding: 20px 30px;
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+    }
+}

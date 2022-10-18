@@ -1,0 +1,119 @@
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+    width: 400px;
+}
+
+form fieldset {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    padding-left: 0px;
+    padding-bottom: 30px;
+}
+
+form fieldset legend {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    padding: 10px 85px 10px 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+form fieldset p {
+    margin-left: 25px;
+    position: relative;
+}
+
+form fieldset p:nth-child(odd) {
+    margin-bottom: 20px;
+}
+
+form fieldset p label {
+    font-weight: 600;
+}
+
+form fieldset p input {
+    margin-left: 5px;
+    width: 75%;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+form fieldset p input:focus {
+    padding-left: 30px;
+}
+
+form fieldset p i {
+    position: absolute;
+    top: 7px;
+    left: 95px;
+}
+
+form fieldset button {
+    margin-left: 25px;
+    padding: 8px 18px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    form fieldset p {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    form fieldset p label {
+        display: block;
+        margin-left: 5px;
+    }
+
+    form fieldset p input {
+        width: 100%;
+        height: 35px;
+    }
+
+    form fieldset p i {
+        top: 28px;
+        left: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    form fieldset p {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    form fieldset p label {
+        display: block;
+        margin-left: 5px;
+    }
+
+    form fieldset p input {
+        width: 100%;
+        height: 35px;
+    }
+
+    form fieldset p i {
+        top: 28px;
+        left: 15px;
+    }
+}
