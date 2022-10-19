@@ -1,0 +1,17 @@
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+}
