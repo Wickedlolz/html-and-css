@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+section {
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+}
+
+section .info,
+section .image {
+    width: 50%;
+}
+
+section .info .info__title {
+    font-weight: 500;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+section .info .info__desc:nth-child(even) {
+    margin-bottom: 10px;
+}
+
+section .info .info__desc:last-of-type {
+    margin-bottom: 30px;
+}
+
+section .info .features {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+section .info .features .features__item {
+    padding: 0;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+section .info .features .features__item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+section .info .features .features__item img {
+    width: 60px;
+}
+
+section .info .features .features__item .content .content__title {
+    margin: 0;
+    font-size: 18px;
+}
+
+section .info .features .features__item .content .content__desc {
+    color: gray;
+    margin: 0;
+}
