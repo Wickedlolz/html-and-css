@@ -1,0 +1,7 @@
+#iphone .cta {
+    color: var(--clr-black);
+}
+
+#iphone .cta .cta__link {
+    color: var(--clr-blue);
+}

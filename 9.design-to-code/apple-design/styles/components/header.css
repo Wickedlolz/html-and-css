@@ -1,0 +1,28 @@
+#header {
+    background-color: var(--clr-black);
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+#header .navigation {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+#header .navigation .navigation__item .navigation__link {
+    text-decoration: none;
+    color: var(--clr-gray);
+    font-size: 14px;
+}
+
+#header .navigation .navigation__item .navigation__link:hover {
+    color: var(--clr-gray-hover);
+}

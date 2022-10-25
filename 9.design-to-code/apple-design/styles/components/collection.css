@@ -1,0 +1,72 @@
+#collection {
+    margin: 15px;
+}
+
+#collection .list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+#collection .list .list__item {
+    position: relative;
+}
+
+#collection .list .list__item .cart {
+    height: 550px;
+}
+
+#collection .list .list__item .cart .cart__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#collection .list .list__item .cart .cta .cta__title {
+    font-size: 32px;
+    text-align: center;
+}
+
+#collection .list .list__item .cart .cta .cta__title .cta__sub-title {
+    display: block;
+    color: var(--clr-orange);
+    font-size: 14px;
+}
+
+#collection .list .list__item .cart .cta .cta__sub {
+    font-size: 20px;
+}
+
+#collection .bg-white {
+    color: var(--clr-black);
+}
+
+#collection .list .list__item .cart .cta .cta__link.bg-white {
+    color: var(--clr-blue);
+}
+
+#collection .cart .cta.bottom {
+    top: unset;
+    bottom: 40px;
+}
+
+#collection .cart .cta.bottom .cta__sub.bg-white {
+    width: 400px;
+}
+
+#collection .cart .cta .cta__sub .m2 {
+    background-color: var(--clr-black);
+    color: var(--clr-white);
+    font-size: 12px;
+    padding: 10px 5px;
+    vertical-align: middle;
+}
+
+#collection .list .list__item .cart .cta .cta__title.tv {
+    font-size: 42px;
+}
+
+#collection .list .list__item .cart .cta .cta__title.tv .decoration {
+    font-size: 32px;
+    color: #ff005a;
+}

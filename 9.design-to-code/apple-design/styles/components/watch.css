@@ -1,0 +1,20 @@
+#watch .cta .cta__title {
+    color: var(--clr-black);
+    text-align: center;
+}
+
+#watch .cta .cta__sub-title {
+    color: var(--clr-orange);
+    display: block;
+    font-size: 20px;
+    margin-left: 30px;
+    letter-spacing: 3px;
+}
+
+#watch .cta .cta__sub {
+    color: var(--clr-black);
+}
+
+#watch .cta .cta__link {
+    color: var(--clr-blue);
+}

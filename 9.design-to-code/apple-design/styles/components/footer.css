@@ -1,0 +1,124 @@
+#footer {
+    background-color: var(--clr-gray-light);
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#footer .heading {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#footer .heading .heading__title {
+    font-size: 14px;
+    color: var(--clr-gray);
+    margin-bottom: 20px;
+}
+
+#footer .heading .divider {
+    width: 100%;
+    height: 1px;
+    background-color: var(--clr-gray);
+    margin-bottom: 20px;
+}
+
+#footer .wrapper {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+
+    display: flex;
+    gap: 50px;
+}
+
+#footer .wrapper div {
+    width: 200px;
+}
+
+#footer .wrapper div p.title {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#footer .wrapper div ul li {
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+#footer .wrapper div ul li a {
+    text-decoration: none;
+    color: var(--clr-gray);
+}
+
+#footer .wrapper div ul li a:hover {
+    text-decoration: underline;
+}
+
+#footer .wrapper .services .services-list,
+#footer .wrapper .values .values-list {
+    margin-bottom: 20px;
+}
+
+#footer .find-us {
+    width: 60%;
+    margin: 0 auto;
+
+    font-size: 12px;
+    color: var(--clr-gray);
+
+    margin-bottom: 10px;
+}
+
+#footer .find-us a {
+    text-decoration: none;
+    color: var(--clr-blue);
+}
+
+#footer .find-us a:hover {
+    text-decoration: underline;
+}
+
+#footer div.divider {
+    width: 60%;
+    margin: 0 auto;
+    height: 1px;
+    background-color: var(--clr-gray);
+}
+
+#footer .apple {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+    font-size: 12px;
+    color: var(--clr-gray);
+}
+
+#footer .apple .sub-menu {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#footer .apple .sub-menu .link {
+    color: var(--clr-gray);
+    text-decoration: none;
+}
+
+#footer .apple .sub-menu .link:hover {
+    text-decoration: underline;
+}
+
+#footer .apple .sub-menu .horizontal-divider {
+    width: 2px;
+    height: 12px;
+    background-color: var(--clr-gray);
+}
+
+#footer .apple .country {
+    margin-left: auto;
+}
