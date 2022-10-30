@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:wght@400;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
+:root {
+    --clr-red: #eb001a;
+    --clr-bg-gray: #efefef;
+    --clr-text-red: #ec004d;
+    --clr-divider-red: #eb001a;
+    --clr-text-gray: #b19fa5;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'PT Serif', serif;
+}
+
+header {
+    background-color: var(--clr-red);
+    padding: 15px 60px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 20px;
+
+    z-index: 1000;
+}
+
+header .phone i,
+header .location i {
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+header .socials {
+    display: flex;
+    gap: 10px;
+}
+
+header .socials .social__link {
+    color: inherit;
+    font-size: 20px;
+}
+
+#hero {
+    position: relative;
+    width: 100%;
+    height: 600px;
+
+    margin-bottom: 40px;
+}
+
+#hero .bg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#hero .nav {
+    position: absolute;
+    top: 30px;
+    right: 60px;
+
+    display: flex;
+    gap: 80px;
+}
+
+#hero .nav .nav__item .nav__link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#hero .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+#hero .content .content__title {
+    font-size: 57px;
+    text-align: center;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
+
+#hero .content .content__desc {
+    width: 72%;
+    margin-inline: auto;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+#hero .content .content__btn {
+    border: none;
+    border-radius: 7px;
+    padding: 5px 20px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    background-color: var(--clr-red);
+    display: block;
+    margin-inline: auto;
+}
+
+#welcome {
+    width: 80%;
+    height: 350px;
+    margin-inline: auto;
+}
+
+#welcome .title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#welcome .divider {
+    width: 70px;
+    height: 5px;
+    background-color: var(--clr-divider-red);
+    margin-inline: auto;
+    margin-bottom: 30px;
+}
+
+#welcome .features {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 30px;
+    justify-content: space-between;
+}
+
+#welcome .features .features__item {
+    width: 100%;
+}
+
+#welcome .features .feature img {
+    margin-inline: auto;
+    margin-bottom: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+#welcome .features .feature .feature__title {
+    text-align: center;
+    color: var(--clr-text-red);
+    margin-bottom: 20px;
+}
+
+#welcome .features .feature .feature__desc {
+    text-align: center;
+}
+
+#coaches {
+    background-color: var(--clr-bg-gray);
+    height: 550px;
+}
+
+#coaches .title {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#coaches .divider {
+    width: 70px;
+    height: 5px;
+    background-color: var(--clr-divider-red);
+    margin-inline: auto;
+    margin-bottom: 30px;
+}
+
+#coaches .list {
+    width: 80%;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: space-between;
+}
+
+#coaches .list .card .content {
+    text-align: center;
+    padding: 0px 10px;
+}
+
+#coaches .list .card .content .content__title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#coaches .list .card .content .role {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    color: var(--clr-text-red);
+    font-weight: bold;
+}
+
+footer {
+    background-color: var(--clr-red);
+    padding: 10px 0px;
+}
+
+footer p {
+    text-align: center;
+}

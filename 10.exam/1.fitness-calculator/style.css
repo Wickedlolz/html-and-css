@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+:root {
+    --clr-green: #34ea60;
+    --clr-btn-gray: #e0e0df;
+    --clr-gray-bg: #f6f7f8;
+    --clr-blue-btn: #00a2d3;
+    --clr-gray-light: #757575;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    height: 700px;
+    margin-inline: auto;
+    margin-top: 60px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+
+    border: 1px solid black;
+
+    box-shadow: 0px 10px 33px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 10px 33px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 33px -6px rgba(0, 0, 0, 0.75);
+}
+
+.container .img-wrapper {
+    position: relative;
+    width: 50%;
+}
+
+.container .layout {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.container .content {
+    width: 50%;
+    padding: 80px 40px;
+    background-color: var(--clr-gray-bg);
+}
+
+.container .content .content__title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.container .content .btns {
+    width: 70%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.container .content .btns .btn-primary {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: var(--clr-green);
+    cursor: pointer;
+}
+
+.container .content .btns .btn-secondary {
+    width: 161px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: var(--clr-btn-gray);
+    cursor: pointer;
+}
+
+.container .content label {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.container .content .gender-inputs {
+    width: 65%;
+    margin-inline: auto;
+
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.container .content .gender-inputs .gender {
+    width: 50%;
+    height: 25px;
+}
+
+.container .content .gender-inputs .years {
+    width: 50%;
+    height: 24px;
+}
+
+.container .content .pounds {
+    width: 80%;
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 20px;
+}
+
+.container .content .height-inputs {
+    width: 90%;
+    margin-inline: auto;
+
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+
+    margin-bottom: 80px;
+}
+
+.container .content .height-inputs input {
+    width: 50%;
+    height: 25px;
+}
+
+.container .content .content__btn {
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--clr-blue-btn);
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+
+    box-shadow: 0px 10px 33px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 10px 33px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 33px -6px rgba(0, 0, 0, 0.75);
+}
