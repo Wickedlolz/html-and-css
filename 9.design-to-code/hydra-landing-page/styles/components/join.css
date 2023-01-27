@@ -1,0 +1,70 @@
+.join {
+    width: 343px;
+    height: 973px;
+    margin-right: auto;
+    margin-left: auto;
+
+    background: radial-gradient(50% 50% at 50% 50%, #403a5f 0%, #211e2e 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+
+    padding-top: 50px;
+    color: #fff;
+}
+
+.join .join__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.join .divider {
+    margin-bottom: 20px;
+}
+
+.join .join__sub-title {
+    text-align: center;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 29px;
+    margin-bottom: 20px;
+}
+
+.join .form {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.join .form .form__field {
+    width: 100%;
+    height: 53px;
+    border: 2px solid #ffffff;
+    border-radius: 40px;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+.join .form .form__field::placeholder {
+    color: #fff;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.join .form .form__textarea {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 40px;
+    width: 100%;
+    height: 219px;
+    margin-bottom: 50px;
+}
+
+.join .form .form__textarea::placeholder {
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 14px;
+}

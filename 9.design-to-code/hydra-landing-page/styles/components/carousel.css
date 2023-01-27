@@ -1,0 +1,35 @@
+.carousel {
+    position: relative;
+    width: 320px;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.carousel .left-arrow,
+.carousel .right-arrow {
+    top: 40%;
+}
+
+.carousel .carousel__img {
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.carousel__text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+
+    color: #ffffff;
+}
+
+.small-carousel {
+    height: unset;
+}

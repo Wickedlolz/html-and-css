@@ -1,0 +1,32 @@
+.intro .intro__title {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.intro .intro__sub-title {
+    color: #fff;
+    font-size: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.intro .intro__img {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.intro .intro__desc {
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #eee;
+}

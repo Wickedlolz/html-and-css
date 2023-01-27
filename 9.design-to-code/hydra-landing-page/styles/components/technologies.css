@@ -1,0 +1,36 @@
+.technologies {
+    position: relative;
+    width: 348px;
+    height: 163.35px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.technologies .technologies__img {
+    width: 100%;
+    height: 100%;
+}
+
+.technologies .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.technologies .content .content__title {
+    width: 257px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.technologies .content .content__text {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 29px;
+    color: #fff;
+    text-align: center;
+}

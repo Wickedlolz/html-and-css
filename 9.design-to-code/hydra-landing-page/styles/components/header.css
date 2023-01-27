@@ -1,0 +1,27 @@
+.nav {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    max-height: 40px;
+    margin-bottom: 50px;
+}
+
+.nav .left-side {
+    display: flex;
+    gap: 10px;
+}
+
+.nav .left-side .left-side__logo {
+    margin-left: 15px;
+}
+
+.nav .left-side .left-side__title {
+    height: 25px;
+    margin-top: 15px;
+}
+
+.nav .hamburger-menu {
+    height: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
